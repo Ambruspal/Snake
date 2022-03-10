@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://roadster.hu/app/uploads/2019/07/jacob-plumb-UghHZmnJw58-unsplash-1600x1060.jpg');
     background-size: cover;
@@ -15,8 +19,8 @@ body {
 main {
     display: flex;
     gap: 6rem;
-    margin-top: 13rem;
-    margin-left: 20.2rem;
+    margin-top: 19rem;
+    margin-left: 40rem;
     cursor: default;
 }
 
@@ -37,12 +41,12 @@ main {
 .speed,
 .start {
     background-color: #caeec2;
-    width: 10rem;
-    height: 5rem;
+    width: 12rem;
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 4rem;
     border: 3px solid #14bd37;
     border-radius: 1rem;
 }
@@ -50,11 +54,12 @@ main {
 .start {
     display: block;
     margin: 0 auto 2.2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    width: 10rem;
-    height: 3rem;
+    width: 13.2rem;
+    height: 4.2rem;
     cursor: pointer;
+    border-radius: 1.5rem;
 }
 
 .start:focus {
@@ -62,7 +67,7 @@ main {
 }
 
 .table-container {
-    margin-top: -5.92rem;
+    margin-top: -7rem;
 }
 
 .table {
