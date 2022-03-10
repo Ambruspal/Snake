@@ -1,2 +1,2 @@
 # Snake
-Snake game via JS by Pál
+Snake game via JS by Pál Ambrus
