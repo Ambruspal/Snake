@@ -58,8 +58,8 @@ main {
     font-weight: 600;
     width: 13.2rem;
     height: 4.2rem;
-    cursor: pointer;
     border-radius: 1.5rem;
+    cursor: pointer;
 }
 
 .start:focus {
@@ -78,7 +78,8 @@ main {
     opacity: 0.9;
 }
 
-.game-over {
+.game-over,
+.hint-holder {
     display: none;
     background-color: rgba(0, 0, 0, 0.7);
     width: 500px;
@@ -94,4 +95,9 @@ main {
 
 .game-over p {
     margin: 10rem auto;
+}
+
+.hint-holder p {
+    width: 80%;
+    margin: 8rem auto;
 }
