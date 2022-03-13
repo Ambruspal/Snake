@@ -28,6 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding-top: 3rem;
 }
 
 .text {
@@ -67,7 +68,7 @@ main {
 }
 
 .table-container {
-    margin-top: -7rem;
+    margin-top: -5rem;
 }
 
 .table {
