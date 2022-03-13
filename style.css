@@ -14,13 +14,13 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     display: flex;
     gap: 6rem;
-    margin-top: 19rem;
-    margin-left: 40rem;
     cursor: default;
 }
 
